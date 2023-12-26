@@ -1,0 +1,36 @@
+$maincolor: #316ff5;
+$fontcolor: #2d3436;
+$firstcolor: #f5d0fe;
+$secondcolor: #a5b4fc;
+$thirdcolor: #a5f3fc;
+$bordercolor: #6363634b;
+$borderbg: #e9e9e956;
+$maindark: #bdbfbf;
+$fontdark: #e8e8e8;
+$firstdark: #814091;
+$seconddark: #424e87;
+$thirddark: #2c7b85;
+$borderdark: #363636;
+$borderbgdark: #2d2d2db3;
+$darkround: #474747;
+$bigdarkround: #4a4a4a;
+
+// .glow::before, glow::after {
+//   content:'';
+//   position:absolute;
+//   left: -5px;
+//   top: -5px;
+//   background: linear-gradient(45deg, #2952c1, #ff00ff, #6e0dd0, #099fff, rgb(25, 232, 167) );
+//   background-size: 400%;
+//   width: calc(100% + 10px);
+//   height: calc(100% + 10px);
+//   z-index: -1;
+//   animation: animate 20s linear infinite; 
+//   }
+
+
+.gradient-bg {
+  background: linear-gradient(45deg, $firstcolor, $secondcolor, $thirdcolor);
+  width: 100%;
+  height: 100%;
+}

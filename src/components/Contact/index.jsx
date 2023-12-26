@@ -23,7 +23,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`https://cdn.sanity.io/images/2kxk5fim/production/590b2812e8b0fb7ca18cc4278b33a1ac70ea3ca4-443x591.png`}
                             />
                         </div>
                         <h2>Let's work</h2>
@@ -40,38 +40,38 @@ export default function index() {
                 </div>
                 <div className={styles.nav}>
                         <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                            <p>maximedupin1992@gmail.com</p>
                         </Rounded>
                         <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                            <p>+33 6 62 20 39 86</p>
                         </Rounded>
                 </div>
                 <div className={styles.info}>
                     <div>
                         <span>
-                            <h3>Version</h3>
-                            <p>2022 © Edition</p>
+                            <h3>Version One</h3>
+                            <p>2024 © Edition</p>
                         </span>
                         <span>
                             <h3>Version</h3>
-                            <p>11:49 PM GMT+2</p>
+                            <p>1.1.1</p>
                         </span>
                     </div>
                     <div>
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Awwwards</p>
+                                <p>Github</p>
                             </Magnetic>
                         </span>
                         <Magnetic>
-                            <p>Instagram</p>
+                                <p>Instagram</p>
                         </Magnetic>
                         <Magnetic>
-                            <p>Dribbble</p>
+                                <p>GitLab</p>
                         </Magnetic>
                         <Magnetic>
-                            <p>Linkedin</p>
+                                <p>Linkedin</p>
                         </Magnetic>
                     </div>
                 </div>

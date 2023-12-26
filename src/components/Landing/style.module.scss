@@ -1,6 +1,24 @@
+$maincolor: #316ff5;
+$fontcolor: #2d3436;
+$firstcolor: #f5d0fe;
+$secondcolor: #a5b4fc;
+$thirdcolor: #a5f3fc;
+$bordercolor: #6363634b;
+$borderbg: #e9e9e956;
+$maindark: #bdbfbf;
+$fontdark: #e8e8e8;
+$firstdark: #814091;
+$seconddark: #424e87;
+$thirddark: #2c7b85;
+$borderdark: #363636;
+$borderbgdark: #2d2d2db3;
+$darkround: #474747;
+$bigdarkround: #4a4a4a;
+
 .landing{
     position: relative;
     display: flex;
+    background: linear-gradient(-45deg, $firstcolor, $secondcolor, $thirdcolor);
     height: 100vh;
     overflow: hidden;
 
@@ -17,13 +35,21 @@
       position: relative;
       white-space: nowrap;
     }
+
+    .gradient-bg {
+      background: linear-gradient(to right bottom, color1, color2, color3);
+      /* Replace color1, color2, and color3 with the actual colors you want to use */
+      width: 100%;
+      height: 100%;
+    }
     
     .slider p{
       position: relative;
       margin: 0px;
-      color: white;
-      font-size: 230px;
-      font-weight: 500;
+      opacity: 0.3;
+      color: $fontcolor;
+      font-size: 200px;
+      font-weight: 400;
       padding-right: 50px;
     }
     
@@ -37,9 +63,10 @@
       position: absolute;
       top: 35%;
       left: 65%;
-      color: white;
-      font-size: 24px;
-      font-weight: 300;
+      opacity: 0.8;
+      color: $fontcolor;
+      font-size: 30px;
+      font-weight: 400;
       p{
         margin: 0px;
         margin-bottom: 10px;
